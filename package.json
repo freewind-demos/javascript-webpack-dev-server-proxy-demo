@@ -1,18 +1,18 @@
 {
-    "scripts": {
-        "static-server": "http-server . -c-1 -p 34893",
-        "start": "webpack-dev-server --open"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "css-loader": "^0.23.1",
-        "style-loader": "^0.13.1"
-    },
-    "devDependencies": {
-        "webpack": "4.8.3",
-        "webpack-cli": "3.3.6",
-        "webpack-dev-server": "3.7.2"
-    }
+  "scripts": {
+    "static-server": "http-server . -c-1 -p 34893",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "0.23.1",
+    "style-loader": "0.13.1"
+  },
+  "devDependencies": {
+    "webpack": "4.8.3",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.7.2"
+  }
 }
